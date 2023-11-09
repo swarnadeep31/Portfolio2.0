@@ -1,7 +1,6 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram,FaGithub, FaLinkedin } from "react-icons/fa";
+import { AiOutlineFacebook } from "react-icons/ai";
 import Link from "next/link";
 
 const Social = () => {
@@ -32,7 +31,7 @@ const Social = () => {
             href="https://mail.google.com/mail/u/1/#inbox"
             className="flex justify-between items-center hover:ml-[-10px] ml-[-100px] hover:rounded-md duration-300  w-full h-10 px-4 bg-gray-500 text-white rounded-tr-md"
           >
-            Mail< HiOutlineMail size={30}/>
+            Facebook< AiOutlineFacebook size={30}/>
           </Link>;
       </ul>
     </div>
