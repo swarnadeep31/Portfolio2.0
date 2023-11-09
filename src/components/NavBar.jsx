@@ -2,7 +2,7 @@
 // import Link from "next/link";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Scroll } from "react-scroll";
+import { Link } from "react-scroll";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
@@ -40,9 +40,9 @@ const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
           >
-            <Scroll to={link} smooth duration={500}>
+            <Link to={link} smooth duration={500}>
               {link}
-            </Scroll>
+            </Link>
           </li>
         ))}
       </ul>
