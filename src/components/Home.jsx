@@ -19,7 +19,7 @@ const Home = () => {
             Degree Computer Science. I love to build and learn new things.
           </p>
           <div>
-            <Link href="https://drive.google.com/file/d/1_KMO-QF0xgnslTFmA0Y-6j4EHgrCKihN/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/1XPmfoeoVjOnQQWo72T77nUVdjHe5-GeZ/view?usp=sharing">
               <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                 RESUME
                 <span className="group-hover:rotate-90 duration-300">
