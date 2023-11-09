@@ -23,8 +23,8 @@ export default function RootLayout({ children }) {
         <Home/>
 
         <About/>
-        <Projects/>
         <Experience/>
+        <Projects/>
         <Contact/>
         <Social/>
         {children}</body>
