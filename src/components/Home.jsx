@@ -15,7 +15,7 @@ const Home = () => {
             I'm a Web Developer
           </h2>
           <p className="text-gray-500 py-5 max-w-md">
-            My name is Swarnadeep Roy, and I am a final yer student in Bechalers
+            My name is Swarnadeep Roy, and I am a final year student in Bechalers
             Degree Computer Science. I love to build and learn new things.
           </p>
           <div>
