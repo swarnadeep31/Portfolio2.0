@@ -28,7 +28,7 @@ const Social = () => {
             Github<FaGithub size={30}/>
           </Link>;
           <Link
-            href="https://mail.google.com/mail/u/1/#inbox"
+            href="https://www.facebook.com/swarnadeep.roy.90"
             className="flex justify-between items-center hover:ml-[-10px] ml-[-100px] hover:rounded-md duration-300  w-full h-10 px-4 bg-gray-500 text-white rounded-tr-md"
           >
             Facebook< AiOutlineFacebook size={30}/>
