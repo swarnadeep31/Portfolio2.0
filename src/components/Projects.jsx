@@ -15,7 +15,7 @@ const Projects = () => {
           </p>
           <p className="py-6 ">Check out some of my work right here</p>
         </div>
-        <div className="grid  sm:flex-cols-2 md:flex-cols-3 gap-8 px-15 sm:px-0">
+        <div className=" flex flex-col sm:flex-row  gap-8 px-15 sm:px-0">
           <div className=" shadow-md shadow-gray-600 rounded-lg w-64 h-52">
             <Image
               width={500}
