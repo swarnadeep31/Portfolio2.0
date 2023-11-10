@@ -66,7 +66,7 @@ const NavBar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-              <Link to={herf}>{link}</Link>
+              <Link to={herf} smooth duration={300}>{link}</Link>
             </li>
           ))}
         </ul>
