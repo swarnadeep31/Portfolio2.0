@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Projects = () => {
@@ -24,12 +25,16 @@ const Projects = () => {
               className="rounded-md duration-300 hover:scale-105"
             />
             <div className="flex items-center justify-center">
-              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                Demo
-              </button>
-              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                Code
-              </button>
+              <Link href="https://youtube-clone-v21.netlify.app/">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  Demo
+                </button>
+              </Link>
+              <Link href="https://github.com/swarnadeep31/youtube-clone-js">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  Code
+                </button>
+              </Link>
             </div>
           </div>
           <div className=" shadow-md shadow-gray-600 rounded-lg w-48 h-68 ">
@@ -41,12 +46,17 @@ const Projects = () => {
               className="rounded-md duration-300 hover:scale-105"
             />
             <div className="flex items-center justify-center">
-              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                Demo
-              </button>
-              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                Code
-              </button>
+              <Link href="https://weather-app-using-js-two.vercel.app/">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  Demo
+                </button>
+              </Link>
+              <Link
+              href="https://github.com/swarnadeep31/weather-app-using-js">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  Code
+                </button>
+              </Link>
             </div>
           </div>
         </div>
