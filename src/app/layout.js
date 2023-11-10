@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
 
         <About/>
         <Experience/>
-        <Projects/>
+        <Projects />
         <Contact/>
         <Social/>
         {children}</body>
