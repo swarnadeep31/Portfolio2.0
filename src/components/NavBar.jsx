@@ -11,22 +11,27 @@ const NavBar = () => {
       id: 1,
 
       link: "home",
+      herf: "home",
     },
     {
       id: 2,
       link: "about",
+      herf: "about",
     },
     {
       id: 3,
       link: "experience",
+      herf: "experience",
     },
     {
       id: 4,
       link: "projects",
+      herf: "projects",
     },
     {
       id: 5,
       link: "contact",
+      herf: "contact",
     },
   ];
   return (
@@ -61,9 +66,7 @@ const NavBar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-              <Link to={link} smooth duration={500}>
-                {link}
-              </Link>
+              <Link to={herf}>{link}</Link>
             </li>
           ))}
         </ul>
