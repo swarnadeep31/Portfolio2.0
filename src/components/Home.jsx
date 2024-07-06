@@ -15,11 +15,11 @@ const Home = () => {
             I'm a Web Developer
           </h2>
           <p className="text-gray-500 py-5 max-w-md">
-            My name is Swarnadeep Roy, and I completed my Bechalers
-            Degree in Computer Science this year. I love to build and learn new things.
+            My name is Swarnadeep Roy, and I completed my Bechalers Degree in
+            Computer Science this year. I love to build and learn new things.
           </p>
           <div>
-            <Link href="https://drive.google.com/file/d/1XPmfoeoVjOnQQWo72T77nUVdjHe5-GeZ/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/1eYa-LgZ0BsCyU5F2Fi1ULd0_zT1BLPIZ/view?usp=drive_link">
               <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                 RESUME
                 <span className="group-hover:rotate-90 duration-300">
